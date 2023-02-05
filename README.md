@@ -1,3 +1,3 @@
 # web2022
 
-Basic website template.
+This is my resume/portfolio website for ICT 420.
