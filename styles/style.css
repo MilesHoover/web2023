@@ -1,27 +1,57 @@
-/* index.html */
+/* Site wide flexbox stylization */
 
 .flex-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+.flex-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.flex-items {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+/* ----- Header and nav stylization for about, skills, resume, & contact pages ----- */
+
+header {
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
 }
+
+nav {
+    font-size: 26px;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: -6%;
+}
+
+nav li {
+    display: inline;
+    margin: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* ----- index.html ----- */
 
 #header_index {
     font-family: 'Playfair Display', serif;
 }
 
 #header_index h1 {
-    font-size: 84px;
+    font-size: 64px;
     margin-bottom: -5%;
 }
 
@@ -30,15 +60,14 @@
 }
 
 #nav_index {
+    font-size: 26px;
     font-family: 'Nunito', sans-serif;
 }
 
 #nav_index ul {
     list-style-type: none;
     padding: 0;
-    font-size: 28px;
     margin-top: -2%;
-    font-family: ;
 }
 
 #nav_index a {
@@ -46,10 +75,10 @@
     color: #000;
 }
 
-/* about.html */
+/* ----- about.html ----- */
 
-/* skills.html */
+/* ----- skills.html ----- */
 
-/* resume.html */
+/* ----- resume.html ----- */
 
-/* contact.html */
+/* ----- contact.html ----- */
