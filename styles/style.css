@@ -136,3 +136,44 @@ nav a {
 
 /* ----- resume.html ----- */
 
+.outer-container10 {
+    text-align: center;
+}
+
+.outer-container10 ul {
+    margin-top: -40px;
+}
+
+.outer-container3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: left;
+}
+
+.item4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: left;
+}
+
+.item4 h4,h5,p, li{
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+.item5 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: left;
+}
+
+.item5 h4,h5,p, li{
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
