@@ -172,7 +172,7 @@ nav a {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: left;
+    align-items: flex-start;
     /* border: #000 solid 1px; */
 }
 
@@ -190,7 +190,7 @@ nav a {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: left;
+    align-items: flex-start;
     /* border: #000 solid 1px; */
 }
 
@@ -213,7 +213,7 @@ nav a {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: left;
-    align-items: left;
+    align-items: flex-start;
 }
 
 .item4 {
@@ -221,7 +221,7 @@ nav a {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: left;
-    align-items: left;
+    align-items: flex-start;
 }
 
 .item4 h4,h5,p, li{
@@ -234,7 +234,7 @@ nav a {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: left;
-    align-items: left;
+    align-items: flex-start;
 }
 
 .item5 h4,h5,p, li{
