@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin-top: -5%;
 }
   
 .flex-items {
@@ -22,18 +23,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    margin: 20%;
+    min-height: 10%;
   }
   
 .footer-items {
     display: flex;
     height: 50px;
+    width: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: grey;
+    background-color: #f1f1f1;
 }
 
 .footer-items ul {
@@ -159,7 +160,6 @@ nav a {
     height: 100vh;
     font-size: 18px;
     font-family: 'Nunito', sans-serif;
-    /* border: #000 solid 1px; */
 }
 
 .outer-container0 {
@@ -198,7 +198,9 @@ nav a {
     margin-top: -4%;
 }
 
-/* ----- resume.html ----- */
+#responsive-image1 {
+    width: 100%;
+}
 
 .outer-container10 {
     text-align: center;
