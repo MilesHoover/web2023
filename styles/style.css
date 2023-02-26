@@ -5,8 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin-top: -5%;
+    height: 100%;
 }
   
 .flex-items {
@@ -148,6 +147,7 @@ nav a {
     margin-left: 25%;
     margin-right: 25%;
     text-align: justify;
+    margin-bottom: 5%;
 }
 
 /* ----- skills.html ----- */
@@ -196,10 +196,6 @@ nav a {
 
 .outer-container2 ul {
     margin-top: -4%;
-}
-
-#responsive-image1 {
-    width: 100%;
 }
 
 .outer-container10 {
