@@ -1,0 +1,251 @@
+/* Site wide stylization */
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.flex-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 10%;
+  }
+  
+.footer-items {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.footer-items ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-items li {
+    display: inline;
+    margin: 50px;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    border: #000 solid 1px;
+    margin: 15px;
+}
+
+/* ----- Header and nav stylization for about, skills, resume, & contact pages ----- */
+
+header {
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+}
+
+nav {
+    font-size: 26px;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: -6%;
+}
+
+nav li {
+    display: inline;
+    margin: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* ----- index.html ----- */
+
+.flex-items-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -200px;
+    height: 100vh;
+}
+
+#header_index {
+    font-family: 'Playfair Display', serif;
+}
+
+#header_index h1 {
+    font-size: 64px;
+    margin-bottom: -5%;
+}
+
+#header_index h2 {
+    font-size: 32px;
+}
+
+#nav_index {
+    font-size: 26px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#nav_index ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: -2%;
+}
+
+#nav_index a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+  }
+  
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+  
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  font-size: 42px;
+  font-family: 'Playfair Display', serif;
+}
+
+.header-right {
+  float: right;
+}
+
+/* ----- about.html ----- */
+
+.flex-items-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#p_about {
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+/* ----- skills.html ----- */
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.outer-container0 {
+    text-align: center;
+    /* border: #000 solid 1px; */
+}
+
+.outer-container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: #000 solid 1px; */
+}
+
+.outer-container1 ul {
+    margin-top: -10%;
+}
+
+.item1 {
+    margin-right: 15%;
+    /* border: #000 solid 1px; */
+}
+
+.outer-container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: #000 solid 1px; */
+}
+
+.outer-container2 ul {
+    margin-top: -4%;
+}
+
+.outer-container10 {
+    text-align: center;
+}
+
+.outer-container10 ul {
+    margin-top: -40px;
+}
+
+.outer-container3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.item4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.item4 h4,h5,p, li{
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+.item5 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.item5 h4,h5,p, li{
+    margin-top: -1px;
+    margin-bottom: -1px;
+}

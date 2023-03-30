@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>Miles Hoover | Form</title>
+    <style>
+      form {
+        margin-top: 10%;
+      }
+
+      label {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        font-family: 'Playfair Display', serif;
+      }
+
+      input {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        font-family: 'Playfair Display', serif;
+      }
+
+      input[type=submit] {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+
+      input[type=button] {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+      input[type=button]:hover {
+        background-color: #45a049;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <a href="index.html" class="logo">MMH</a>
+      <div class="header-right">
+        <a href="https://github.com/MilesHoover/web2023"><img src="images/github-mark.png" alt="Github Logo" style="width:42px;height:42px;"></a>
+      </div>
+    </div> 
+    <div class="flex-container">
+      <div class="flex-items-about">
+
+        <!-- Text entry form -->
+        <form action="form.html" method="post">
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname"><br><br>
+          <input type="submit" value="Submit">
+        </form>
+
+        <br>
+
+        <!-- button -->
+        <form action="form.html" method="post">
+          <input type="button" value="I'm a button!">
+        </form>
+
+        <br>
+
+        <!-- datalist -->
+        <form action="form.html" method="post">
+          <label for="cookies">Enter your favorite type of cookie:</label>
+          <input list="cookie" id="cookies" name="cookies">
+          <datalist id="cookie">
+            <option value="Chocolate Chip">
+            <option value="Oatmeal Raisin">
+            <option value="Double Chocolate">
+            <option value="Sugar">
+            <option value="Other">
+          </datalist>
+        </form>
+
+        <br>
+
+        <!-- Form with predefined list of options -->
+        <form action="form.html" method="post">
+          <label for="cars">Enter your favorite car manufacturer:</label>
+          <select name="cars" id="cars">
+            <option value="BWM">BWM</option>
+            <option value="Hyundai">Hyundai</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Audi">Audi</option>
+          </select>
+        </form>
+
+        <br>
+
+        <!-- Form with legend and fieldset -->
+        <form action="form.html" method="get">
+          <fieldset>
+            <legend>Choose your favorite team: </legend>
+            <input type="radio" id="UK" name="UK" value="UK">
+            <label for="UK">UK</label><br>
+            <input type="radio" id="UofL" name="UofL" value="UofL">
+            <label for="UofL">UofL</label><br>
+          </fieldset>
+        </form>
+
+        <br>
+
+        <!-- Form with text area -->
+        <form action="form.html" method="post">
+          <label for="subject">Whats on your mind?</label><br>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        </form>
+
+      </div>
+    </div>
+    <div class="flex-footer">
+      <div class="footer-items">
+        <ul>
+          <li>Created by Miles Hoover</li>
+          <li>Copyright 2023</li>
+          <li>MilesMHoover@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+
+  </body>
+
+</html>

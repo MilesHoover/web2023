@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>Miles Hoover | Table</title>
+    <style>
+        table {
+            margin-top: 10%;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+            font-family: 'Playfair Display', serif;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 15px;
+        }
+        .hover:hover {
+                background-color: #f1f1f1;
+        }
+        thead {
+            background-color: #f1f1f1;
+        }
+        tfoot {
+            background-color: #f1f1f1;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <a href="index.html" class="logo">MMH</a>
+      <div class="header-right">
+        <a href="https://github.com/MilesHoover/web2023"><img src="images/github-mark.png" alt="Github Logo" style="width:42px;height:42px;"></a>
+      </div>
+    </div> 
+    <div class="flex-container">
+        <div class="flex-items-about">
+            
+            <!-- Table for books on my bookshelf -->
+            <table>
+                <caption>My Bookshelf:</caption>
+                <thead>
+                    <tr>
+                        <th colspan="3">Books</th>
+                    </tr>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Genre</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="hover">
+                        <td>The Picture of Dorian Gray</td>
+                        <td>Oscar Wilde</td>
+                        <td>Classics</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Anna Karenina</td>
+                        <td>Leo Tolstoy</td>
+                        <td>Classics</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>The Fellowship of the Ring</td>
+                        <td>J.R.R. Tolkien</td>
+                        <td>Fantasy</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>The Two Towers</td>
+                        <td>J.R.R. Tolkien</td>
+                        <td>Fantasy</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>The Return of the King</td>
+                        <td>J.R.R. Tolkien</td>
+                        <td>Fantasy</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Pride and Prejudice</td>
+                        <td>Jane Austen</td>
+                        <td>Classics</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>A Tree Grows in Brooklyn</td>
+                        <td>Betty Smith</td>
+                        <td>Classics</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>The Conquest of Bread</td>
+                        <td>Pyotr Kropotkin</td>
+                        <td>Philosophy</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>Kafka on the Shore</td>
+                        <td>Haruki Murakami</td>
+                        <td>Fiction</td>
+                    </tr>
+                    <tr class="hover">
+                        <td>A Portrait of the Artist as a Young Man</td>
+                        <td>James Joyce</td>
+                        <td>Classics</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="1">Total:</td>
+                        <td colspan="2">10</td>
+                    </tr>
+                </tfoot>
+            </table>    
+        </div>
+    </div>
+    <div class="flex-footer">
+      <div class="footer-items">
+        <ul>
+          <li>Created by Miles Hoover</li>
+          <li>Copyright 2023</li>
+          <li>MilesMHoover@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+
+  </body>
+
+</html>
