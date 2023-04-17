@@ -212,10 +212,6 @@ nav a {
     text-align: center;
 }
 
-.outer-container10 ul {
-    margin-top: -40px;
-}
-
 .outer-container3 {
     display: flex;
     flex-direction: column;
@@ -248,4 +244,38 @@ nav a {
 .item5 h4,h5,p, li{
     margin-top: -1px;
     margin-bottom: -1px;
+}
+
+/* make pages mobile reponsive */
+@media screen and (max-width: 600px) {
+    .outer-container1 {
+        flex-direction: column;
+    }
+    .outer-container2 {
+        flex-direction: column;
+    }
+    .outer-container3 {
+        flex-direction: column;
+    }
+    .item1 {
+        margin-right: 0;
+    }
+    .item4 {
+        margin-right: 0;
+    }
+    .item5 {
+        margin-right: 0;
+    }
+    .page-items {
+        margin-top: -20%;
+    }
+}
+
+/* Make class page-items center horizontally */
+.page-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10%;
 }
