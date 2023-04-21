@@ -269,6 +269,9 @@ nav a {
     #outer-container10 {
         margin-top: -10%;
     }
+    .footer-items {
+        height: 75px;
+    }
 }
 
 /* Make class page-items center horizontally */
